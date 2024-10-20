@@ -1,0 +1,169 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container styles */
+.main-container {
+    display: flex;
+    background-color: #d0e7ff; 
+    min-height: 100vh; 
+    align-items: center; 
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+.slogan {
+    flex: 1;
+    padding: 40px; 
+}
+
+.slogan h2 {
+    font-size: 3em;
+    color: #ac2929; /* Green */
+    margin: 0;
+}
+
+.slogan1 {
+    font-size: 1.2em;
+    color: #555; /* Dark gray */
+    margin-top: 10px;
+}
+
+/* Container for the form */
+.container {
+    height: 100vh;
+    flex: 1;
+    background-color: white;
+    border-radius: 25px 0 0 25px;  /* Top left and right corners rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    position: relative;
+    overflow: hidden; /* To ensure rounded corners show */
+}
+
+/* Form heading */
+.container h2 {
+    margin-bottom: 20px;
+}
+
+/* Social buttons styles */
+.socials {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.alternative{
+    text-align: center;
+}
+
+.google-button,
+.facebook-button
+{
+    padding: 10px;
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.socials img{
+    margin-right: 10px;
+}
+.submit-button {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b3eb8; 
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Google button styles */
+.google-button {
+    background-color: whitesmoke; /* Google red */
+    color: black;
+}
+
+.google-button:hover {
+    background-color: #f13026;
+}
+
+/* Facebook button styles */
+.facebook-button {
+    background-color: whitesmoke; /* Facebook blue */
+    color: black;
+}
+
+.facebook-button:hover {
+    background-color: #1948ac;
+}
+
+/* Form input styles */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 40%;
+    padding: 10px 40px 10px 10px; /* Padding to accommodate icons */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* Eye icon for password field */
+.form-group {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    cursor: pointer;
+}
+
+/* Submit button styles */
+
+.submit-button:hover {
+    background-color: #0c08ee;
+}
+
+/* Link styles */
+a {
+    color: #1114e6; /* Green */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add icons to buttons */
+
+
+
